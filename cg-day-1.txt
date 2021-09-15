@@ -1,0 +1,114 @@
+calculate simple interest?
+      	Begin
+	  Declare princople amount,Time,Rate of intrest as int
+	  and simple intrest as float
+	  simple intrest=(principle amount+Time+Rate of intrest)/100
+	  display simple intrest
+	end
+		
+check whether person is eligible to vote or not?
+
+	Begin
+ 	  Declare num as int and store in age variable
+ 	  prompt "enter num"
+  		if age<18
+		   display "not eligible to vote"
+ 		else
+		   display "eligible to vote"
+  		endif
+	end
+
+check whether number is odd or even?
+	Begin
+ 	  Declare num as int 
+ 	  prompt "enter num"
+  		if num%2 == 0
+		   display "even"
+ 		else
+		   display "odd"
+  		endif
+	end
+
+check whether number is divisible by 2 and 3 and 5?
+	Begin
+ 	  Declare num as int 
+ 	  prompt "enter num"
+  		if ((num%2==0)&&(num%3==0)&&(num%5==0))
+		   display "number is divisible"
+ 		else
+		   display "number is not divisible"
+  		endif
+	end
+
+check whether number is divisible by 2 or 3 or 5?
+	Begin
+ 	  Declare num as int 
+ 	  prompt "enter num"
+  		if ((num%2==0)||(num%3==0)||(num%5==0))
+		   display "number is divisible"
+ 		else
+		   display "number is not divisible"
+  		endif
+	end
+
+check whether person is able to vote or not or is a senior citizen?
+	Begin
+ 	  Declare num as int and store in age variable
+ 	  prompt "enter num"
+  		if age<18
+		   display "not eligible to vote"
+ 		else if age>=18 && age <60
+		   display "eligible to vote"
+		else
+		   display "you are a senior citizen"
+
+ 		endif
+	end
+	
+using for loop to print 1 to 10 numbers?
+	Begin
+	declare i
+	for i 1 to 10
+	  display i
+   	 end for
+	end
+
+using while loop print sum 1 to 5 numbers?
+      Begin
+	declare num and sum variables
+	initialize sum = 0
+	 while(num<=5)
+	   sum=sum+num
+	   num=num+1
+	end while
+      end
+
+Find prime number in a given array of numbers?
+	Begin
+	 Declare i,k,array of n numbers,count variables
+	 for i = 0 to n
+	    read array of n elements
+	 end for
+         for i = 0 to n
+	    for k = 1 to k < arr[i]/2
+		if arr[i]%2 == 0
+		  count = count+1
+		end if
+	     end for
+	     if(count>2)
+		display "not a prime number"
+	     else
+		display "prime number"
+	     endif
+	     count = 0
+	   end for
+	  end 
+
+
+
+
+
+
+
+	
+		
